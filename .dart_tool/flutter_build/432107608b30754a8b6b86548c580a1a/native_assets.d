@@ -1,0 +1,1 @@
+ /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/.dart_tool/flutter_build/432107608b30754a8b6b86548c580a1a/native_assets.yaml: 
