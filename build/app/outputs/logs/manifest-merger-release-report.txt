@@ -1,0 +1,760 @@
+-- Merging decision tree log ---
+application
+INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:14:5-54:19
+MERGED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-48:19
+MERGED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-48:19
+MERGED from [:firebase_core] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/1181a3bbf90b92117d326220abdeccaa/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/1181a3bbf90b92117d326220abdeccaa/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.window:window:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/e9ebcd49f4b6ab79a9d9f5bb24412fd9/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/e9ebcd49f4b6ab79a9d9f5bb24412fd9/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/292946a5f84b34e01cf79b347ca113a2/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/292946a5f84b34e01cf79b347ca113a2/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/7e8a7922c2ba94451caab39051cc57d8/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/7e8a7922c2ba94451caab39051cc57d8/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/58b3e950e0541466827d00363d4ed907/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/58b3e950e0541466827d00363d4ed907/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/osvaldoangel/.gradle/caches/transforms-3/f0e213536fd6dcc5eb401269bd83f293/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/osvaldoangel/.gradle/caches/transforms-3/f0e213536fd6dcc5eb401269bd83f293/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/adceead33d84694ac18ae58e77c5813b/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/adceead33d84694ac18ae58e77c5813b/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/ea0e31ecfb7d2ff12f0f6c00c7ae69c4/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/ea0e31ecfb7d2ff12f0f6c00c7ae69c4/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/574778e7dd83ca48aae2f6fad46bc748/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/574778e7dd83ca48aae2f6fad46bc748/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/5a88b9be443e4166e6b98e1a14bdff4e/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/5a88b9be443e4166e6b98e1a14bdff4e/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/osvaldoangel/.gradle/caches/transforms-3/b8420711df3447bd8586d1dc8ca38937/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/osvaldoangel/.gradle/caches/transforms-3/b8420711df3447bd8586d1dc8ca38937/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/osvaldoangel/.gradle/caches/transforms-3/5d117f3525c4270b8d2ba6ae1ad746bf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/osvaldoangel/.gradle/caches/transforms-3/5d117f3525c4270b8d2ba6ae1ad746bf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a7f10a7ad176d3b9d1b3465b508b97fd/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a7f10a7ad176d3b9d1b3465b508b97fd/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/b4e3306198a2b091c695a314acc42daa/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/b4e3306198a2b091c695a314acc42daa/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/osvaldoangel/.gradle/caches/transforms-3/8556beb2d9cec07e78f3834e900e138e/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/osvaldoangel/.gradle/caches/transforms-3/8556beb2d9cec07e78f3834e900e138e/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:7:5-11:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:15:9-36
+	android:icon
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:17:9-43
+	android:name
+		INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:16:9-42
+manifest
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:1:1-61:12
+INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:1:1-61:12
+INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:1:1-61:12
+INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:1:1-61:12
+MERGED from [:connectivity_plus] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-50:12
+MERGED from [:firebase_core] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:flutter_local_notifications] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:flutter_native_splash] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/flutter_native_splash/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:google_maps_flutter_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_plugin_android_lifecycle] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:geocoding_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/geocoding_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:geolocator_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-17:12
+MERGED from [:path_provider_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:permission_handler_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:speech_bubble] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/speech_bubble/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/1181a3bbf90b92117d326220abdeccaa/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.media:media:1.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/ca21c3e3cc134b545302329eb17abde9/transformed/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/e9ebcd49f4b6ab79a9d9f5bb24412fd9/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.window:window-java:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a0583a1c8c8823d2b020a7275f757651/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:17:1-66:12
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/292946a5f84b34e01cf79b347ca113a2/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/7e8a7922c2ba94451caab39051cc57d8/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/58b3e950e0541466827d00363d4ed907/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/c34afef10b302600fae7a183dbe95239/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /home/osvaldoangel/.gradle/caches/transforms-3/43a8ee5f9d4b6d43f00954db68c66d89/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/f41ba37208109a00150f4239e0fc8c37/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/685d3adf15112bfbe170e754105a9f48/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.7.1] /home/osvaldoangel/.gradle/caches/transforms-3/2e2a54bb1b1756197d64434a577dc650/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/osvaldoangel/.gradle/caches/transforms-3/f0e213536fd6dcc5eb401269bd83f293/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/4eac8eb1c616dceb135283f0cfde3917/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/2efa36bc4326a5d5c45a060e5395acb9/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.1] /home/osvaldoangel/.gradle/caches/transforms-3/f9f3b994f680179d66dabac737b36164/transformed/jetified-activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/32157ed05d26b1725cccfe5bdaf10747/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/ab709d0bbd6889bbac1839e0cbcbd765/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/8e58ad9d38fdaa0efcb0c31fac368cfc/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/c914d1b3459eb2a6fc5ab04874e49312/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/7618a1a95b3ee70197d9087a2653111f/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/adceead33d84694ac18ae58e77c5813b/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/ea0e31ecfb7d2ff12f0f6c00c7ae69c4/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/574778e7dd83ca48aae2f6fad46bc748/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/4a2f3dd12d983cd026d7524622802d2d/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/d956b0e55bd15dbd940d4c8e78c9187f/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b5ac62668a9bd72d46b298c3d79e2c67/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/7950cf4954bc28f0d8c82835696c8e2a/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/5a88b9be443e4166e6b98e1a14bdff4e/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/osvaldoangel/.gradle/caches/transforms-3/f437a37bd886be8ea2303badfc8b7748/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/5fb4c8b1672e8bfc6540231713b6ad4c/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/osvaldoangel/.gradle/caches/transforms-3/b8420711df3447bd8586d1dc8ca38937/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/b9cc153fceac970fef6a308f528ac72e/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/2de03e3f0fd64b57e05e8f76ebc4ccdc/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/osvaldoangel/.gradle/caches/transforms-3/5d117f3525c4270b8d2ba6ae1ad746bf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/0018cc1b4b0dccc3c49a5636a1375e14/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3bf4b997da933222b6c788f8fb42c5f9/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a7f10a7ad176d3b9d1b3465b508b97fd/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:15:1-31:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/b4e3306198a2b091c695a314acc42daa/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/4b53463d4089e1b7c2069f84bebe7d44/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/627cbe8d92f4f5612d25b5256266e1c8/transformed/jetified-transport-api-3.1.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/0e8ab36c782740aaf1d748e0d476962b/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/02636c2e2f24dcd4568e8cae2b3aac4f/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/7fdf7946a45e50f8dbb08527ff0eadb4/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/osvaldoangel/.gradle/caches/transforms-3/8556beb2d9cec07e78f3834e900e138e/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/osvaldoangel/.gradle/caches/transforms-3/85a2efd82112d3f6c4e5b11e22b1fa54/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:1:1-61:12
+INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:1:1-61:12
+INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:1:1-61:12
+	package
+		INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:1:1-61:12
+		INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:1:1-61:12
+		INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:1:1-61:12
+		INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:2:5-66
+MERGED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/c34afef10b302600fae7a183dbe95239/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/c34afef10b302600fae7a183dbe95239/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/b4e3306198a2b091c695a314acc42daa/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/b4e3306198a2b091c695a314acc42daa/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:2:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:3:5-78
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:3:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:4:22-78
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:5:5-76
+MERGED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+MERGED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+MERGED from [:flutter_local_notifications] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-77
+MERGED from [:flutter_local_notifications] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-77
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:23:5-77
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:5:22-74
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:8:5-65
+MERGED from [:flutter_local_notifications] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-66
+MERGED from [:flutter_local_notifications] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:8:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:9:5-67
+MERGED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/c34afef10b302600fae7a183dbe95239/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/c34afef10b302600fae7a183dbe95239/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:9:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:10:5-82
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/c34afef10b302600fae7a183dbe95239/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/c34afef10b302600fae7a183dbe95239/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:10:22-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:12:1-74
+MERGED from [:connectivity_plus] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [:connectivity_plus] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/c34afef10b302600fae7a183dbe95239/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/c34afef10b302600fae7a183dbe95239/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/b4e3306198a2b091c695a314acc42daa/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/b4e3306198a2b091c695a314acc42daa/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:12:18-72
+queries
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:55:5-60:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:56:9-59:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:57:13-72
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:57:21-70
+data
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:58:13-50
+	android:mimeType
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:58:19-48
+uses-sdk
+INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+MERGED from [:connectivity_plus] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/connectivity_plus/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_local_notifications] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/flutter_native_splash/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_native_splash] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/flutter_native_splash/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/google_maps_flutter_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/geocoding_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geocoding_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/geocoding_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:geolocator_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/path_provider_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_handler_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/permission_handler_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared_preferences_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/shared_preferences_android/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:speech_bubble] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/speech_bubble/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:speech_bubble] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/speech_bubble/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/1181a3bbf90b92117d326220abdeccaa/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/1181a3bbf90b92117d326220abdeccaa/transformed/jetified-play-services-location-21.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.media:media:1.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/ca21c3e3cc134b545302329eb17abde9/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/ca21c3e3cc134b545302329eb17abde9/transformed/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/e9ebcd49f4b6ab79a9d9f5bb24412fd9/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/e9ebcd49f4b6ab79a9d9f5bb24412fd9/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a0583a1c8c8823d2b020a7275f757651/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a0583a1c8c8823d2b020a7275f757651/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/292946a5f84b34e01cf79b347ca113a2/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/292946a5f84b34e01cf79b347ca113a2/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/7e8a7922c2ba94451caab39051cc57d8/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/7e8a7922c2ba94451caab39051cc57d8/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/58b3e950e0541466827d00363d4ed907/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/58b3e950e0541466827d00363d4ed907/transformed/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/c34afef10b302600fae7a183dbe95239/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/c34afef10b302600fae7a183dbe95239/transformed/jetified-play-services-cloud-messaging-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /home/osvaldoangel/.gradle/caches/transforms-3/43a8ee5f9d4b6d43f00954db68c66d89/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /home/osvaldoangel/.gradle/caches/transforms-3/43a8ee5f9d4b6d43f00954db68c66d89/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/f41ba37208109a00150f4239e0fc8c37/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/f41ba37208109a00150f4239e0fc8c37/transformed/jetified-datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/685d3adf15112bfbe170e754105a9f48/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/685d3adf15112bfbe170e754105a9f48/transformed/jetified-datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.7.1] /home/osvaldoangel/.gradle/caches/transforms-3/2e2a54bb1b1756197d64434a577dc650/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /home/osvaldoangel/.gradle/caches/transforms-3/2e2a54bb1b1756197d64434a577dc650/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/osvaldoangel/.gradle/caches/transforms-3/f0e213536fd6dcc5eb401269bd83f293/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /home/osvaldoangel/.gradle/caches/transforms-3/f0e213536fd6dcc5eb401269bd83f293/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/4eac8eb1c616dceb135283f0cfde3917/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/4eac8eb1c616dceb135283f0cfde3917/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/2efa36bc4326a5d5c45a060e5395acb9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/2efa36bc4326a5d5c45a060e5395acb9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /home/osvaldoangel/.gradle/caches/transforms-3/f9f3b994f680179d66dabac737b36164/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /home/osvaldoangel/.gradle/caches/transforms-3/f9f3b994f680179d66dabac737b36164/transformed/jetified-activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/32157ed05d26b1725cccfe5bdaf10747/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/32157ed05d26b1725cccfe5bdaf10747/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/ab709d0bbd6889bbac1839e0cbcbd765/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/ab709d0bbd6889bbac1839e0cbcbd765/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/8e58ad9d38fdaa0efcb0c31fac368cfc/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/8e58ad9d38fdaa0efcb0c31fac368cfc/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/c914d1b3459eb2a6fc5ab04874e49312/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/c914d1b3459eb2a6fc5ab04874e49312/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/7618a1a95b3ee70197d9087a2653111f/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/7618a1a95b3ee70197d9087a2653111f/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/adceead33d84694ac18ae58e77c5813b/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/adceead33d84694ac18ae58e77c5813b/transformed/jetified-play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/ea0e31ecfb7d2ff12f0f6c00c7ae69c4/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/ea0e31ecfb7d2ff12f0f6c00c7ae69c4/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/574778e7dd83ca48aae2f6fad46bc748/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/574778e7dd83ca48aae2f6fad46bc748/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/4a2f3dd12d983cd026d7524622802d2d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/4a2f3dd12d983cd026d7524622802d2d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/d956b0e55bd15dbd940d4c8e78c9187f/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/d956b0e55bd15dbd940d4c8e78c9187f/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b5ac62668a9bd72d46b298c3d79e2c67/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b5ac62668a9bd72d46b298c3d79e2c67/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/7950cf4954bc28f0d8c82835696c8e2a/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/7950cf4954bc28f0d8c82835696c8e2a/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/5a88b9be443e4166e6b98e1a14bdff4e/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/5a88b9be443e4166e6b98e1a14bdff4e/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/osvaldoangel/.gradle/caches/transforms-3/f437a37bd886be8ea2303badfc8b7748/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/osvaldoangel/.gradle/caches/transforms-3/f437a37bd886be8ea2303badfc8b7748/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/5fb4c8b1672e8bfc6540231713b6ad4c/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/5fb4c8b1672e8bfc6540231713b6ad4c/transformed/localbroadcastmanager-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/osvaldoangel/.gradle/caches/transforms-3/b8420711df3447bd8586d1dc8ca38937/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/osvaldoangel/.gradle/caches/transforms-3/b8420711df3447bd8586d1dc8ca38937/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/b9cc153fceac970fef6a308f528ac72e/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/b9cc153fceac970fef6a308f528ac72e/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/2de03e3f0fd64b57e05e8f76ebc4ccdc/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/2de03e3f0fd64b57e05e8f76ebc4ccdc/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/osvaldoangel/.gradle/caches/transforms-3/5d117f3525c4270b8d2ba6ae1ad746bf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/osvaldoangel/.gradle/caches/transforms-3/5d117f3525c4270b8d2ba6ae1ad746bf/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/0018cc1b4b0dccc3c49a5636a1375e14/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/0018cc1b4b0dccc3c49a5636a1375e14/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3bf4b997da933222b6c788f8fb42c5f9/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3bf4b997da933222b6c788f8fb42c5f9/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a7f10a7ad176d3b9d1b3465b508b97fd/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a7f10a7ad176d3b9d1b3465b508b97fd/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/b4e3306198a2b091c695a314acc42daa/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/b4e3306198a2b091c695a314acc42daa/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/4b53463d4089e1b7c2069f84bebe7d44/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/4b53463d4089e1b7c2069f84bebe7d44/transformed/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/627cbe8d92f4f5612d25b5256266e1c8/transformed/jetified-transport-api-3.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /home/osvaldoangel/.gradle/caches/transforms-3/627cbe8d92f4f5612d25b5256266e1c8/transformed/jetified-transport-api-3.1.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/0e8ab36c782740aaf1d748e0d476962b/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/0e8ab36c782740aaf1d748e0d476962b/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/02636c2e2f24dcd4568e8cae2b3aac4f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/02636c2e2f24dcd4568e8cae2b3aac4f/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/7fdf7946a45e50f8dbb08527ff0eadb4/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/7fdf7946a45e50f8dbb08527ff0eadb4/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/osvaldoangel/.gradle/caches/transforms-3/8556beb2d9cec07e78f3834e900e138e/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/osvaldoangel/.gradle/caches/transforms-3/8556beb2d9cec07e78f3834e900e138e/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/osvaldoangel/.gradle/caches/transforms-3/85a2efd82112d3f6c4e5b11e22b1fa54/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/osvaldoangel/.gradle/caches/transforms-3/85a2efd82112d3f6c4e5b11e22b1fa54/transformed/jetified-annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml
+activity#com.taxi.driver.MainActivity
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:18:9-40:20
+	android:launchMode
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:21:13-43
+	android:hardwareAccelerated
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:25:13-47
+	android:windowSoftInputMode
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:27:13-55
+	android:exported
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:20:13-36
+	android:configChanges
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:24:13-163
+	android:theme
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:23:13-47
+	android:taskAffinity
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:19:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:32:13-35:17
+	android:resource
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:34:15-52
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:33:15-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:36:13-39:29
+action#android.intent.action.MAIN
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:37:17-68
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:38:27-74
+meta-data#flutterEmbedding
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:43:9-45:33
+	android:value
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:45:13-30
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:44:13-44
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:47:9-49:71
+	android:value
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:49:13-68
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:48:13-58
+meta-data#com.google.android.gms.version
+ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:51:9-53:69
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/574778e7dd83ca48aae2f6fad46bc748/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/574778e7dd83ca48aae2f6fad46bc748/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/osvaldoangel/.gradle/caches/transforms-3/8556beb2d9cec07e78f3834e900e138e/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:3.6.0] /home/osvaldoangel/.gradle/caches/transforms-3/8556beb2d9cec07e78f3834e900e138e/transformed/jetified-android-maps-utils-3.6.0/AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:53:13-66
+	android:name
+		ADDED from /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/AndroidManifest.xml:52:13-58
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
+ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+	android:exported
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+	android:permission
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+	android:name
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+	android:exported
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+	android:name
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+receiver#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver
+ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+	android:exported
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+	android:name
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-41:19
+MERGED from [:firebase_core] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/7e8a7922c2ba94451caab39051cc57d8/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/7e8a7922c2ba94451caab39051cc57d8/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a7f10a7ad176d3b9d1b3465b508b97fd/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:22:9-28:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a7f10a7ad176d3b9d1b3465b508b97fd/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:22:9-28:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+	android:value
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+	android:name
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+provider#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+	android:authorities
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+	android:exported
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+	android:initOrder
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+	android:name
+		ADDED from [:firebase_messaging] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [:firebase_core] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [:firebase_core] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:56
+	android:enabled
+		ADDED from [:geolocator_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-35
+	android:exported
+		ADDED from [:geolocator_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-53
+	android:name
+		ADDED from [:geolocator_android] /home/osvaldoangel/Documentos/binteconsulting/rayo-driver/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/e9ebcd49f4b6ab79a9d9f5bb24412fd9/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/e9ebcd49f4b6ab79a9d9f5bb24412fd9/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/e9ebcd49f4b6ab79a9d9f5bb24412fd9/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/e9ebcd49f4b6ab79a9d9f5bb24412fd9/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/e9ebcd49f4b6ab79a9d9f5bb24412fd9/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/e9ebcd49f4b6ab79a9d9f5bb24412fd9/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a6b9ca85c4081aaed41d24e8446b7e7f/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:29:9-40:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:30:13-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:37:13-39:40
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:39:17-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:38:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:46:9-53:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:49:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:48:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:47:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:57:13-59:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:58:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:60:13-62:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.1] /home/osvaldoangel/.gradle/caches/transforms-3/190db6e485422999ab924e83ba55bc78/transformed/jetified-firebase-messaging-24.0.1/AndroidManifest.xml:61:17-119
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/292946a5f84b34e01cf79b347ca113a2/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/292946a5f84b34e01cf79b347ca113a2/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/292946a5f84b34e01cf79b347ca113a2/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.3.0] /home/osvaldoangel/.gradle/caches/transforms-3/292946a5f84b34e01cf79b347ca113a2/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/3f06215acb543b331c1f90a82981e391/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/7e8a7922c2ba94451caab39051cc57d8/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/7e8a7922c2ba94451caab39051cc57d8/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/7e8a7922c2ba94451caab39051cc57d8/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/osvaldoangel/.gradle/caches/transforms-3/b2bf7240d9fb78081a82202b90fbf7cb/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.taxi.driver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.taxi.driver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/osvaldoangel/.gradle/caches/transforms-3/86c9f25cb2f3fc410f15791c65109221/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/5a88b9be443e4166e6b98e1a14bdff4e/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/osvaldoangel/.gradle/caches/transforms-3/b8420711df3447bd8586d1dc8ca38937/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/osvaldoangel/.gradle/caches/transforms-3/b8420711df3447bd8586d1dc8ca38937/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/5a88b9be443e4166e6b98e1a14bdff4e/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/5a88b9be443e4166e6b98e1a14bdff4e/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/5a88b9be443e4166e6b98e1a14bdff4e/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/5a88b9be443e4166e6b98e1a14bdff4e/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/5a88b9be443e4166e6b98e1a14bdff4e/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/5a88b9be443e4166e6b98e1a14bdff4e/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/osvaldoangel/.gradle/caches/transforms-3/5a88b9be443e4166e6b98e1a14bdff4e/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/osvaldoangel/.gradle/caches/transforms-3/eb1bedfec4af8d9abbc28ee4dfc011b7/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a7f10a7ad176d3b9d1b3465b508b97fd/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a7f10a7ad176d3b9d1b3465b508b97fd/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /home/osvaldoangel/.gradle/caches/transforms-3/a7f10a7ad176d3b9d1b3465b508b97fd/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:26:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/b4e3306198a2b091c695a314acc42daa/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/b4e3306198a2b091c695a314acc42daa/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/b4e3306198a2b091c695a314acc42daa/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/b4e3306198a2b091c695a314acc42daa/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/b4e3306198a2b091c695a314acc42daa/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/b4e3306198a2b091c695a314acc42daa/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /home/osvaldoangel/.gradle/caches/transforms-3/ec65b922594c1f78498023793d66f74d/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132

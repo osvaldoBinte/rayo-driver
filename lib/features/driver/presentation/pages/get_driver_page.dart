@@ -1,14 +1,25 @@
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:rayo_taxi/features/driver/domain/entities/change_availability_entitie.dart';
+import 'package:rayo_taxi/features/driver/domain/entities/driver.dart';
+import 'package:rayo_taxi/features/driver/presentation/getxs/changeAvailability/changeAvailability_getx.dart';
 import 'package:rayo_taxi/features/driver/presentation/getxs/login/logindriver_getx.dart';
+import 'package:rayo_taxi/features/driver/presentation/getxs/removeDataAccount/removeDataAccount_getx.dart';
+import 'package:rayo_taxi/features/driver/presentation/pages/CarInfoDisplay/car_info_display.dart';
+import 'package:rayo_taxi/features/driver/presentation/pages/Widget/card_button.dart';
+import 'package:rayo_taxi/features/driver/presentation/pages/Widget/list_option.dart';
+import 'package:rayo_taxi/features/driver/presentation/pages/ayudaPage/ayuda_page.dart';
 import 'package:rayo_taxi/features/driver/presentation/pages/login_driver_page.dart';
+import 'package:rayo_taxi/features/driver/presentation/pages/privacy_notices/privacy_notices.dart';
 import 'package:rayo_taxi/main.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:quickalert/quickalert.dart';
 
 import 'dart:async';
 
 import '../getxs/get/get_driver_getx.dart';
+import 'loaderScreen /custom_loading_screen.dart';
 
 class GetDriverPage extends StatefulWidget {
   const GetDriverPage({super.key});
@@ -22,11 +33,25 @@ class _GetDriverPage extends State<GetDriverPage> {
   final GetDriverGetx getDriveGetx = Get.find<GetDriverGetx>();
   final LogindriverGetx _driverGetx = Get.find<LogindriverGetx>();
 
+  final RemovedataaccountGetx _removedataaccountGetx =
+      Get.find<RemovedataaccountGetx>();
+
   Future<void> _logout() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    _driverGetx.logout();
-    await prefs.remove('auth_token');
-    await Get.offAll(() => LoginDriverPage());
+    QuickAlert.show(
+      context: Get.context!,
+      type: QuickAlertType.confirm,
+      title: 'Cerrar sesión',
+      text: '¿Estás seguro de que deseas cerrar sesión?',
+      confirmBtnText: 'Sí',
+      cancelBtnText: 'No',
+      onConfirmBtnTap: () async {
+        SharedPreferences prefs = await SharedPreferences.getInstance();
+        _driverGetx.logout();
+        await prefs.remove('auth_token');
+
+        await Get.offAll(() => LoginDriverPage());
+      },
+    );
   }
 
   @override
@@ -66,10 +91,7 @@ class _GetDriverPage extends State<GetDriverPage> {
         padding: const EdgeInsets.all(20),
         child: Obx(() {
           final state = getDriveGetx.state.value;
-
-          if (state is GetDriverLoading) {
-            return const Center(child: CircularProgressIndicator());
-          } else if (state is GetDriverFailure) {
+ if (state is GetDriverFailure) {
             return Center(
               child: Text(
                 state.error,
@@ -77,7 +99,11 @@ class _GetDriverPage extends State<GetDriverPage> {
                     color: Theme.of(context).colorScheme.error, fontSize: 18),
               ),
             );
-          } else if (state is GetDriverLoaded) {
+          }
+          if (state is GetDriverLoading) {
+            return const CustomLoadingScreen();
+          } 
+            if (state is GetDriverLoaded) {
             final drive = state.drive.isNotEmpty ? state.drive[0] : null;
 
             if (drive == null) {
@@ -136,12 +162,65 @@ class _GetDriverPage extends State<GetDriverPage> {
                             overflow: TextOverflow.ellipsis,
                           ),
                           const SizedBox(height: 5),
-                          Text('Edad: ${drive.years_old ?? 'N/A'}',
+                          Text('Fecha de nacimiento: ${drive.birthdate ?? 'N/A'}',
                               style: Theme.of(context).textTheme.bodyLarge),
                           Text(drive.email ?? 'Sin email',
                               style: Theme.of(context).textTheme.bodyLarge),
                         ],
                       ),
+                    ),
+                    const SizedBox(width: 20),
+                    Column(
+                      children: [
+                        IconButton(
+                          icon: Icon(
+                            drive.availability == 1
+                                ? Icons.notifications
+                                : Icons.notifications_off,
+                          ),
+                          color: Colors.grey.shade700,
+                          iconSize: 30,
+                          onPressed: () {
+                            QuickAlert.show(
+                              context: context,
+                              type: QuickAlertType.confirm,
+                              title: 'Confirmar Acción',
+                              text: drive.availability == 1
+                                  ? '¿Deseas desactivar las notificaciones?'
+                                  : '¿Deseas activar las notificaciones?',
+                              confirmBtnText: 'Sí',
+                              cancelBtnText: 'No',
+                              onConfirmBtnTap: () async {
+                                final ChangeavailabilityGetx _driverGetx =
+                                    Get.find<ChangeavailabilityGetx>();
+                                final availability = ChangeAvailabilityEntitie(
+                                  status:
+                                      drive.availability == 1 ? false : true,
+                                );
+                                await _driverGetx.execute(
+                                  ChangeaVailabilityEvent(
+                                      changeAvailabilityEntitie: availability),
+                                );
+
+                                print(
+                                    "Estado cambiado a: ${availability.status}");
+                                 getDriveGetx
+                                    .fetchCoDetails(FetchgetDetailsEvent());
+
+                                Navigator.of(context).pop();
+                              },
+                              onCancelBtnTap: () {
+                                Navigator.of(context).pop();
+                              },
+                            );
+                          },
+                        ),
+                        const SizedBox(height: 5),
+                        const Text(
+                          'Notificaciones',
+                          style: TextStyle(fontSize: 12, color: Colors.grey),
+                        ),
+                      ],
                     ),
                   ],
                 ),
@@ -149,8 +228,7 @@ class _GetDriverPage extends State<GetDriverPage> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    _buildCardButton(
-                      context,
+                    CardButton(
                       icon: Icons.logout,
                       label: 'Cerrar Sesión',
                       onPressed: _logout,
@@ -158,21 +236,96 @@ class _GetDriverPage extends State<GetDriverPage> {
                   ],
                 ),
                 const SizedBox(height: 30),
-                _buildListOption(
+                ListOption(
                   icon: Icons.directions_car,
                   title: 'Vehículo',
                   subtitle: 'Información adicional',
+                                    onPressed: (){
+                                       showModalBottomSheet<void>(
+                          context: context,
+                          isScrollControlled: true,
+                          shape: RoundedRectangleBorder(
+                            borderRadius:
+                                BorderRadius.vertical(top: Radius.circular(20)),
+                          ),
+                          builder: (BuildContext context) {
+                            return FractionallySizedBox(
+                              heightFactor: 0.8,
+                              child: Column(
+                                children: <Widget>[
+                                  SizedBox(
+                                    height: 10,
+                                    width: 70,
+                                    child: DecoratedBox(
+                                        decoration: BoxDecoration(
+                                      color: Theme.of(context).primaryColor,
+                                      borderRadius:
+                                          BorderRadius.all(Radius.circular(8)),
+                                    )),
+                                  ),
+                                  Expanded(
+                                    child: CarInfoDisplay(driver: drive),
+                                  ),
+                                ],
+                              ),
+                            );
+                          },
+                        );
+                                    }
+
                 ),
-                _buildListOption(
+                ListOption(
                   icon: Icons.help_outline,
                   title: 'Ayuda',
                   subtitle:
                       '¿Te gustaría que te ayude con algo más relacionado con tu aplicación?',
+                 onPressed: (){
+                                       showModalBottomSheet<void>(
+                          context: context,
+                          isScrollControlled: true,
+                          shape: RoundedRectangleBorder(
+                            borderRadius:
+                                BorderRadius.vertical(top: Radius.circular(20)),
+                          ),
+                          builder: (BuildContext context) {
+                            return FractionallySizedBox(
+                              heightFactor: 0.8,
+                              child: Column(
+                                children: <Widget>[
+                                  SizedBox(
+                                    height: 10,
+                                    width: 70,
+                                    child: DecoratedBox(
+                                        decoration: BoxDecoration(
+                                      color: Theme.of(context).primaryColor,
+                                      borderRadius:
+                                          BorderRadius.all(Radius.circular(8)),
+                                    )),
+                                  ),
+                                  Expanded(
+                                    child: AyudaPage(driver: drive),
+                                  ),
+                                ],
+                              ),
+                            );
+                          },
+                        );
+                                    }
                 ),
-                _buildListOption(
-                  icon: Icons.security,
-                  title: 'Control de seguridad',
-                  subtitle: 'Conoce cómo hacer que los viajes sean más seguros',
+                ListOption(
+                  icon: Icons.privacy_tip,
+                  title: 'Terminos y Condiciones',
+                  subtitle: 'Detalles de nuestras políticas y condiciones',
+                  onPressed: () => _showPdfModal(context),
+                ),
+                ListOption(
+                  icon: Icons.delete_forever,
+                  title: 'Eliminar cuenta',
+                  subtitle: 'Elimina tu cuenta de forma permanente',
+                  cardColor: Colors.red.shade100,
+                  onPressed: () {
+                    _removedataaccountGetx.confirmDeleteAccount();
+                  },
                 ),
                 const SizedBox(height: 80),
               ],
@@ -184,46 +337,36 @@ class _GetDriverPage extends State<GetDriverPage> {
     );
   }
 
-  Widget _buildCardButton(BuildContext context,
-      {required IconData icon,
-      required String label,
-      VoidCallback? onPressed}) {
-    return Column(
-      children: [
-        InkWell(
-          onTap: onPressed ?? () {},
-          child: Container(
-            padding: const EdgeInsets.all(10),
-            decoration: BoxDecoration(
-              color: Colors.grey.shade200,
-              shape: BoxShape.circle,
-            ),
-            child: Icon(icon, size: 30, color: Colors.black),
+
+  void _showPdfModal(BuildContext context) {
+    showModalBottomSheet<void>(
+      context: context,
+      isScrollControlled: true,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (BuildContext context) {
+        return FractionallySizedBox(
+          heightFactor: 0.8,
+          child: Column(
+            children: <Widget>[
+              SizedBox(
+                height: 10,
+                width: 70,
+                child: DecoratedBox(
+                    decoration: BoxDecoration(
+                  color: Theme.of(context).primaryColor,
+                  borderRadius: BorderRadius.all(Radius.circular(8)),
+                )),
+              ),
+              Expanded(
+                child: PrivacyPolicyView(),
+              ),
+            ],
           ),
-        ),
-        const SizedBox(height: 5),
-        Text(label, style: const TextStyle(fontSize: 16)),
-      ],
+        );
+      },
     );
   }
 
-  Widget _buildListOption(
-      {required IconData icon,
-      required String title,
-      required String subtitle,
-      Widget? trailing}) {
-    return Card(
-      margin: const EdgeInsets.symmetric(vertical: 8),
-      elevation: 2,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(15),
-      ),
-      child: ListTile(
-        leading: Icon(icon, color: Colors.black, size: 30),
-        title: Text(title, style: const TextStyle(fontWeight: FontWeight.w600)),
-        subtitle: Text(subtitle),
-        trailing: trailing,
-      ),
-    );
-  }
 }

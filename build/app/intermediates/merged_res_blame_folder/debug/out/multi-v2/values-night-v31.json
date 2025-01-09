@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.taxi.driver.app-mergeDebugResources-36:/values-night-v31/values-night-v31.xml",
+            "outputFile": "com.taxi.driver.app-mergeDebugResources-49:/values-night-v31/values-night-v31.xml",
             "map": [
                 {
                     "source": "/home/osvaldoangel/Documentos/binteconsulting/rayo-driver/android/app/src/main/res/values-night-v31/styles.xml",

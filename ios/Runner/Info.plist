@@ -26,6 +26,11 @@
 		<string>rayo_driver</string>
 		<key>CFBundlePackageType</key>
 		<string>APPL</string>
+		<key>LSApplicationQueriesSchemes</key>
+		<array>
+			<string>whatsapp</string>
+			<string>tel</string>
+		</array>
 		<key>CFBundleShortVersionString</key>
 		<string>$(FLUTTER_BUILD_NAME)</string>
 		<key>CFBundleSignature</key>
