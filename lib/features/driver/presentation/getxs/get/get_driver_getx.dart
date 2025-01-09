@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:rayo_taxi/features/driver/data/models/driver_model.dart';
 import 'package:rayo_taxi/features/driver/domain/usecases/get_driver_usecase.dart';
-import 'package:rayo_taxi/features/travel/domain/usecases/get_device_usecase.dart';
+import 'package:rayo_taxi/features/travel/domain/usecases/travelusecase/get_device_usecase.dart';
 
 import '../../../../../connectivity_service.dart';
 part 'get_driver_event.dart';

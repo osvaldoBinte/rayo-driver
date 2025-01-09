@@ -30,7 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  flutter_localizations:
+    sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -41,16 +42,21 @@ dependencies:
   shared_preferences: ^2.3.2
   connectivity_plus: ^4.0.2
   flutter_spinkit: ^5.2.1
+  webview_flutter: ^3.0.0
 
   firebase_core: ^3.6.0
   firebase_messaging: ^15.1.1
   curved_navigation_bar: ^1.0.6
-  google_maps_flutter: ^2.2.0  # Verifica si hay una versión más reciente
+  google_maps_flutter: ^2.2.0 
   geolocator: ^13.0.1
   geocoding: ^3.0.0
   quickalert: ^1.1.0
   permission_handler: ^11.3.1
   flutter_local_notifications: ^17.2.3
+  speech_bubble: ^0.0.9
+  flutter_dotenv: ^5.0.2
+  shimmer: ^3.0.0
+ 
 
 
 flutter_native_splash:
@@ -59,10 +65,13 @@ flutter_native_splash:
   android: true
   ios: true
 
-flutter_icons:
+
+flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/images/Logo_driver(2).png"
+  image_path: "assets/images/logo-adjusted.png" 
+  adaptive_icon_background: "#EFC300" 
+  adaptive_icon_foreground: "assets/images/logo-adjusted.png"
 
 
 dev_dependencies:
@@ -92,7 +101,13 @@ flutter:
      - assets/images/rayo_taxi2.png
      - assets/images/Logo_driver(2).png
      - assets/images/logo-new.png
-
+     - assets/images/logo-adjusted.png
+     - assets/images/logo-incos.png
+     - test.env
+     - .env
+     - dev.env
+     - assets/images/taxi.png
+     - assets/images/whatsApp.png
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

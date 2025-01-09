@@ -1,5 +1,5 @@
 import 'package:get/get_state_manager/src/simple/get_controllers.dart';
-import 'package:rayo_taxi/features/travel/domain/usecases/get_device_usecase.dart';
+import 'package:rayo_taxi/features/travel/domain/usecases/travelusecase/get_device_usecase.dart';
 
 class GetDeviceGetx extends GetxController {
   final GetDeviceUsecase getDeviceUsecase;
